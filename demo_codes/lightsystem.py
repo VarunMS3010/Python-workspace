@@ -1,13 +1,13 @@
 class Area: 
 
-    def Room(self,option):
+    def Room(self,option):# zone1 
         self.option = option
         if(option == 1):
             print("Flurocent Lamp is On\n")
-            print("Enter 1 for other Load to On: ")
-            key3 = int(input())
-            if(key3 == 1):
-                area.Room(option)
+            # print("Enter 1 for other Load to On: ")
+            # key3 = int(input())
+            # if(key3 == 1):
+            #     area.Room(option)
 
         if(option == 2):
             print("fan is On\n")

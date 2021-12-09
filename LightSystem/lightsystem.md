@@ -3,7 +3,7 @@ user class :
 * Control interface will provided to user to select specfic load's.
 * user will control load in zones.
 
-Zone class :
+Area class :
 * All Rooms, kitchen, Bath room are defined.
 * load are also defined to specfic zone.
 * set default mode.
@@ -16,7 +16,7 @@ display class :
 
 # concepts using 
 
-* classes , functions , Inheritance.
+* classes, Instance Method.
 
 
 
