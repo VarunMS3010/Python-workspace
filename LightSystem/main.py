@@ -1,8 +1,18 @@
-import select
+from user import User
 
-if __name__ == "__main__":
-    
+
+def main():
+    user = User()
     print("Enter 0 for options\n")
     key = int(input('Enter the Key:  '))
     user.selectZone(key)
+
     
+    if __name__ == "__main__":
+        main()
+        
+        
+        
+        
+        
+        

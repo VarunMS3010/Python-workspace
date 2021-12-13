@@ -22,6 +22,9 @@ class User:
             option = int(input("Enter to switch On the Load : "))
             print("ground Floor, Kitchen \n")
             area.Kitchen(option)
+            
+        return key1
 
 
-user = User()
+
+
