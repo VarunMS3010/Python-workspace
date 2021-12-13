@@ -1,9 +1,10 @@
 import area
  
 class User:
-    
+       
     def selectZone(self,key):
         self.key= key
+        area1 = area.Area()  # area obj1 area1 obj2
         if(key == 0):
             print("Select Zones\n")
             print("Enter 1 for  Room\n")
@@ -13,17 +14,16 @@ class User:
         if(key1 == 1):
             option = int(input("Enter to switch On the Load : "))
             print("Ground Floor, Room  \n ")
-            area.Room(option)
+            area1.Room(option)
         elif key1 == 2:
             option = int(input("Enter to switch On the Load : "))
             print("ground Floor, Hall \n")
-            area.Hall(option)
+            area1.hall(option)
         elif key1 == 3:
             option = int(input("Enter to switch On the Load : "))
             print("ground Floor, Kitchen \n")
-            area.Kitchen(option)
+            area1.Kitchen(option)
             
-        return key1
 
 
 
