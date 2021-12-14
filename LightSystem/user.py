@@ -12,14 +12,25 @@ class User:
             print("Enter 3 for  Kitchen\n")
             key1 = int(input('Enter the Choice   :  '))
         if(key1 == 1):
+            print("Enter 1 to turn ON Flurocent Lamp\n")
+            print("Enter 2 to turn ON fan \n")
+            print("Enter 3 to turn ON AC \n")
             option = int(input("Enter to switch On the Load : "))
             print("Ground Floor, Room  \n ")
             area1.Room(option)
+            
         elif key1 == 2:
+            print("Enter 1 to turn ON Flurocent Lamp\n")
+            print("Enter 2 to turn ON fan \n")
+            print("Enter 3 to turn ON AC \n")
             option = int(input("Enter to switch On the Load : "))
             print("ground Floor, Hall \n")
             area1.hall(option)
+            
         elif key1 == 3:
+            print("Enter 1 to turn ON Flurocent Lamp\n")
+            print("Enter 2 to turn ON fan \n")
+            print("Enter 3 to turn ON AC \n")
             option = int(input("Enter to switch On the Load : "))
             print("ground Floor, Kitchen \n")
             area1.Kitchen(option)

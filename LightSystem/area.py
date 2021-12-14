@@ -9,7 +9,7 @@ class Area:
             print("fan is On\n")
 
         if(self.option == 3):
-            print("Bedlamp Lamp is On\n")
+            print("Bedlamp  is On\n")
             
         return self.option
 
@@ -24,6 +24,8 @@ class Area:
         if(self.option == 3):
             print("AC Lamp is On\n")
             
+        return self.option
+            
 
     def Kitchen(self,option):
         self.option = option
@@ -34,7 +36,9 @@ class Area:
             print("fan is On\n")
 
         if(self.option == 3):
-            print("AC Lamp is On\n")
+            print("LED Bulb is On\n")
+        
+        return self.option
             
 
 
