@@ -60,7 +60,12 @@ class User:
                 exit
             
         elif key1> 3:
-             exit   
+            print("Invaild Load option")
+            endoption = int(input( "enter 0 to exit and '1' to continue "))
+            if(endoption == 0):
+                exit 
+            elif(endoption == 1):
+                User.selectZone(self) 
             
 
 

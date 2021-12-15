@@ -1,5 +1,3 @@
-import user
-
 class Display():
        
     def ShowLoad(self, key1, option):

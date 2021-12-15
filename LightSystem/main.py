@@ -8,7 +8,12 @@ def main():
         user1 = User(key)
         user1.selectZone() 
     elif(key !=0):
+        print("Invaild Zone key")
+        zonekey = int(input("Enter '0' to exit and '1' and to continue "))
+        if(zonekey == 0):
             exit
+        elif(zonekey == 1):
+            main()
 
     
 

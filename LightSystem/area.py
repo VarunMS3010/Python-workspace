@@ -5,10 +5,8 @@ class Area:
         self.option = option
         if(self.option == 1):
             print("Flurocent Lamp is On\n")
-
         if(self.option == 2):
             print("fan is On\n")
-
         if(self.option == 3):
             print("Bedlamp is On\n")
             
@@ -17,10 +15,8 @@ class Area:
         self.option = option
         if(self.option == 1):
             print("Flurocent Lamp is On\n")
-
         if(self.option == 2):
             print("fan is On\n")
-
         if(self.option == 3):
             print("AC is On\n")
             
@@ -29,10 +25,8 @@ class Area:
         self.option = option
         if(self.option == 1):
             print("Flurocent Lamp is On\n")
-
         if(self.option == 2):
             print("fan is On\n")
-
         if(self.option == 3):
             print("LED Bulb is On\n")
         
